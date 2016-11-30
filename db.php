@@ -2,7 +2,7 @@
 
 	function dbConnect() 
 	{
-		return new mysqli("byteme.no.mysql", "byteme_no", "", "byteme_no");
+		return new mysqli("localhost:3306", "root", "", "byteme_no");
 	}
-	
+
 ?>
